@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Filters</title>
+    <script src = 'angular.min.js'></script>
+    <script src = "app.js"></script>
+  </head>
+  <body ng-app = "FilterModule">
+     <h1>Filters</h1>
+     <div ng-controller = "FilterController">
+       {{name}} has a message for you: <br>
+       {{sayHello()}}
+      <div>
+       <button ng-click = "feedRamesh()">feedRamesh</button>
+       <br>
+       <img ng-src="images/yaakov_{{stateofBeing}}.png" />
+     </div>
+     </div>
+  </body>
+</html>
